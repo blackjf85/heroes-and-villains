@@ -1,6 +1,6 @@
 import Search from './components/Search'
 
-// Material UI imports
+// Material UI imports//
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography'
 
