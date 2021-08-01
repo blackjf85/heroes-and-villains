@@ -38,7 +38,7 @@ const Search = () => {
     useEffect(() => {
         if (toggleTrue)
         axios
-            .get(`${CORS_PROXY}${BASE_URL}${API_KEY}/search/${searchValue}`)
+            .get(`${BASE_URL}${API_KEY}/search/${searchValue}`)
             .then(res => {
                 setSearchData(res.data.results);
             })
